@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/MK-BOOT-%23FF6900?style=flat" alt="MKBOOT" width="200"/>
 </a>
 
-![Mkboot](https://img.shields.io/badge/MAKE-BOOTANIMATION%202.0-blue.svg)
+[![Mkboot](https://img.shields.io/badge/MAKE-BOOTANIMATION%201.0-blue.svg)](CHANGELOG.md)
 
 ---
 
@@ -16,8 +16,6 @@ Gif / vidio ➭ Png (sesuai fps) ➭ buat background (sesuai reso) ➭ add png d
 </div>
 
 ---
-
-# Install dependensi untuk MKBOOT...
 
 ## Update repository
 ```
