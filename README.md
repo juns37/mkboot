@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/offici5l/MiUnlockTool/releases/latest">
+<a href="https://github.com/juns37/mkboot">
   <img src="https://img.shields.io/badge/MK-BOOT-%23FF6900?style=flat" alt="MKBOOT" width="200"/>
 </a>
 
@@ -8,9 +8,9 @@
 
 ---
 
-**Cara kerja:   
+Cara kerja:   
 
-Gif / vidio ➭ Png (sesuai fps) ➭ buat background (sesuai reso) ➭ add png ditengah (kalau reso png lebih besar akan diperkecil ➭ buat file desc.txt ➭ pack jadi bootanimation.zip**   
+Gif / vidio ➭ Png (sesuai fps) ➭ buat background (sesuai reso) ➭ add png ditengah (kalau reso png lebih besar akan diperkecil ➭ buat file desc.txt ➭ pack jadi bootanimation.zip   
 
 **Compatible with all device.**
 </div>
@@ -31,7 +31,7 @@ pkg update && pkg upgrade -y
 pkg install python git fzf ffmpeg imagemagick zip -y
 ```
 
-## Memberikan izin akses ke penyimpanan internal (PENTING untuk /sdcard/boot)
+## Memberikan izin penyimpanan internal (penting untuk /sdcard/boot)
 ```
 termux-setup-storage
 ```
