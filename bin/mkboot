@@ -4,14 +4,14 @@
 shopt -s nullglob
 
 # Konfigurasi Folder
-TMP="$HOME/tmp/bootanim_tmp"
+TMP="$HOME/tmp"
 mkdir -p "$TMP"
 mkdir -p /sdcard/boot
 
 # Default Settings
 WIDTH=1080
 HEIGHT=1080
-FPS=60
+FPS=30
 BG="black"
 INPUT=""
 

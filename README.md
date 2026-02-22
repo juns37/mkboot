@@ -1,3 +1,22 @@
+<div align="center">
+
+<a href="https://github.com/offici5l/MiUnlockTool/releases/latest">
+  <img src="https://img.shields.io/badge/MK-BOOT-%23FF6900?style=flat" alt="MKBOOT" width="200"/>
+</a>
+
+![Mkboot](https://img.shields.io/badge/MAKE-BOOTANIMATION%202.0-blue.svg)
+
+---
+
+**Cara kerja:   
+
+Gif / vidio ➭ Png (sesuai fps) ➭ buat background (sesuai reso) ➭ add png ditengah (kalau reso png lebih besar akan diperkecil ➭ buat file desc.txt ➭ pack jadi bootanimation.zip**   
+
+**Compatible with all device.**
+</div>
+
+---
+
 # Install dependensi untuk MKBOOT...
 
 ## Update repository
@@ -24,5 +43,7 @@ termux-setup-storage
 git clone https://github.com/juns37/mkboot.git && cd mkboot && bash setup.sh
 ```
 
-[Group Support](http://t.me/mengpoi)
-
+## Usage
+```
+mkboot
+```
