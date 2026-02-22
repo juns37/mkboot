@@ -8,6 +8,10 @@
 
 ---
 
+![](src/img/mkboot.png)
+
+---
+
 Cara kerja:   
 
 Gif / vidio ➭ Png (sesuai fps) ➭ buat background (sesuai reso) ➭ add png ditengah (kalau reso png lebih besar akan diperkecil ➭ buat file desc.txt ➭ pack jadi bootanimation.zip   
