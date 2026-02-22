@@ -24,5 +24,5 @@ termux-setup-storage
 git clone https://github.com/juns37/mkboot.git && cd mkboot && bash setup.sh
 ```
 
-[Group Support](http://t.me/mengpoi);
+[Group Support](http://t.me/mengpoi)
 
