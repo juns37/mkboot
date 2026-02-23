@@ -12,7 +12,7 @@
 
 ---
 
-Cara kerja:   
+Bootanimation Build Process
 
 Gif / vidio ➭ Png (sesuai fps) ➭ buat background (sesuai reso) ➭ add png ditengah (kalau reso png lebih besar akan diperkecil ➭ buat file desc.txt ➭ pack jadi bootanimation.zip   
 
@@ -21,12 +21,12 @@ Gif / vidio ➭ Png (sesuai fps) ➭ buat background (sesuai reso) ➭ add png d
 
 ---
 
-## Update repository
+## Update repository..
 ```
 pkg update && pkg upgrade -y
 ```
 
-## Install semua tool yang dibutuhkan script
+## Install semua tool yang dibutuhkan script..
 1. fzf: untuk menu interaktif
 2. ffmpeg: untuk olah video
 3. imagemagick: untuk olah gambar (magick)
@@ -40,12 +40,12 @@ pkg install python git fzf ffmpeg imagemagick zip -y
 termux-setup-storage
 ```
 
-## Clone repo ini
+## Install mkboot tools..
 ```
 curl -fsSL https://raw.githubusercontent.com/juns37/mkboot/main/setup.sh | bash
 ```
 
-## Usage
+## Usage..
 ```
 mkboot
 ```
