@@ -42,7 +42,7 @@ termux-setup-storage
 
 ## Clone repo ini
 ```
-git clone https://github.com/juns37/mkboot.git && cd mkboot && bash setup.sh
+curl -fsSL https://raw.githubusercontent.com/juns37/mkboot/main/setup.sh | bash
 ```
 
 ## Usage

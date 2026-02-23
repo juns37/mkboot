@@ -1,13 +1,15 @@
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 
-# Beri izin eksekusi pada script utama
-chmod +x bin/mkboot
+set -e
 
-# Pindahkan ke bin agar bisa dipanggil langsung
-cp bin/mkboot $PREFIX/bin/
+REPO="https://raw.githubusercontent.com/juns37/mkboot/main"
 
-echo "----------------------------------------"
-echo "✅ Instalasi Selesai!"
-echo "Pastikan kamu sudah memberikan izin Storage."
-echo "Sekarang kamu bisa mengetik: mkboot"
-echo "----------------------------------------"
+echo "Installing mkboot..."
+
+curl -fsSL $REPO/bin/mkboot -o $PREFIX/bin/mkboot
+
+chmod +x $PREFIX/bin/mkboot
+
+echo "Done."
+echo "You can now run:"
+echo "mkboot"
